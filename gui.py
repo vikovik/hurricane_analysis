@@ -8,7 +8,7 @@ hurricanes = {}
 def clear_text():
     result_text.delete("1.0", "end")
 
-def on_option_change(*args):
+def on_option_change():
     clear_text()
 
 def exit_program():
